@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const caucho_1 = __importDefault(require("./caucho"));
+const oruga_1 = __importDefault(require("./oruga"));
 class Robot {
     _numeroSerie;
     _ptbBase;
@@ -28,8 +28,8 @@ class Robot {
         console.log(`Caracteristicas adicionales: ${this._traccion.caracteristicasAdicionales()}`);
     }
 }
-const robot = new Robot("KT-2020-P", 10);
-const traccionCaucho = new caucho_1.default;
-robot.asignarTraccion(traccionCaucho);
-robot.mostrarInfo();
+const robot2 = new Robot("KT-2020-P", 10);
+const traccionOruga = new oruga_1.default;
+robot2.asignarTraccion(traccionOruga);
+robot2.mostrarInfo();
 //# sourceMappingURL=robot.js.map

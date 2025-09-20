@@ -32,8 +32,13 @@ class Robot {
     }
 }
 
-const robot = new Robot("KT-2020-P", 10);
+/*const robot = new Robot("KT-2020-P", 10);
 const traccionCaucho = new caucho;
 robot.asignarTraccion(traccionCaucho);
-robot.mostrarInfo();
+robot.mostrarInfo();*/
+
+const robot2 = new Robot("KT-2020-P", 10);
+const traccionOruga = new Oruga;
+robot2.asignarTraccion(traccionOruga);
+robot2.mostrarInfo();
 
